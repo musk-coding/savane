@@ -1,10 +1,34 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Reservia</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navigation">
+        <img src="./assets/images/logo/Reservia.svg" alt="Logo Reservia" />
+
+        <ul class="navigation__items">
+          <li class="navigation__item"><a href="#">Hébergements</a></li>
+          <li class="navigation__item"><a href="#">Activités</a></li>
+          <li class="navigation__item subscribe">
+            <a href="#">S'inscrire</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="search__options">
+        <h3 class="slogan">Trouvez votre hébergement pour des vacances de rêve</h3>
+        <p>En plein centre ville ou en pleine nature</p>
+        <div class="search__form">
+            <i class="fa fa-map-marker search__icon"></i>
+            <input class="search__input" type="text" placeholder="" value="Marseille, France">
+            <button class="search__button">Rechercher</button>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
