@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -22,6 +22,7 @@ body {
 .navigation__items {
     display: flex;
     justify-content: space-between;
+    width: 30%;
 }
 
 .navigation__item {
@@ -31,14 +32,14 @@ body {
 .navigation__item a {
     text-decoration: none;
     color: inherit;
-    padding: 40px;
+    padding: 11px 40px;
 }
 
 .navigation__item a:active {
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
-    border-bottom: 2px solid #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 .subscribe {
@@ -70,20 +71,19 @@ body {
 
 .search__form {
     margin-top: 15px;
+    display: flex;
 }
 
 .search__icon {
-    position: relative;
-    right: -25px;
     background-color: #F2F2F2;
-    left: 0;
-    top: 8px;
-    padding: 0 8px;
+    padding: 9px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .search__button {
-    position: relative;
-    left: -5px;
+    /* position: relative;
+    left: -5px; */
     height: 35px;
     margin: 0;
     background-color: #0065FC;
@@ -96,4 +96,73 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     vertical-align: center;
+}
+
+.search__filters {
+    width: 900px;;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    width: 800px;
+    flex-wrap:wrap
+}
+
+.search__filters__options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search__filters_label {
+    font-weight: bold;
+}
+
+.search__filters__option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 15px;
+    border: 1px solid #F2F2F2;
+    text-align: center;;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.search__filters__option:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    cursor: pointer;
+}
+
+.filter__icon {
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #0065FC;
+    background-color:#DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info__icon {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+    color:#0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }

@@ -2,8 +2,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Reservia</title>
   </head>
@@ -21,13 +30,47 @@
         </ul>
       </nav>
       <section class="search__options">
-        <h3 class="slogan">Trouvez votre hébergement pour des vacances de rêve</h3>
+        <h3 class="slogan">
+          Trouvez votre hébergement pour des vacances de rêve
+        </h3>
         <p>En plein centre ville ou en pleine nature</p>
         <div class="search__form">
-            <i class="fa fa-map-marker search__icon"></i>
-            <input class="search__input" type="text" placeholder="" value="Marseille, France">
-            <button class="search__button">Rechercher</button>
+          <i class="fa fa-map-marker search__icon"></i>
+          <input
+            class="search__input"
+            type="text"
+            placeholder=""
+            value="Marseille, France"
+          />
+          <button class="search__button">Rechercher</button>
         </div>
+        <div class="search__filters">
+          <div class="search__filters__options">
+            <div class="search__filters_label">Filtres</div>
+            <div class="search__filters__option">
+              <div class="filter__icon">
+                <i class="fas fa-money-bill-wave"></i>
+              </div>
+              Économique
+            </div>
+            <div class="search__filters__option">
+              <div class="filter__icon"><i class="fas fa-child"></i></div>
+              Familial
+            </div>
+            <div class="search__filters__option">
+              <div class="filter__icon"><i class="fas fa-heart"></i></div>
+              Romantique
+            </div>
+            <div class="search__filters__option">
+              <div class="filter__icon"><i class="fas fa-dog"></i></div>
+              Animaux autorisés
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="info__icon"><i class="fas fa-info"></i></div>          
+          Plus de 500 logements sont disponibles dans cette ville
+        </p>
       </section>
     </div>
   </body>
