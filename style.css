@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
 }
 
@@ -22,7 +22,6 @@ body {
 .navigation__items {
     display: flex;
     justify-content: space-between;
-    width: 30%;
 }
 
 .navigation__item {
@@ -165,4 +164,26 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+}
+
+.results {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.results__group {
+    display: flex;
+    height: 200px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.results__main {
+    width: 73%;
+}
+
+.results__popular {
+    width: 25%;
 }
