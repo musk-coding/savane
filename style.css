@@ -283,7 +283,6 @@ ul {
 
 .footer {
     background-color: #F2F2F2;
-    margin: 50px 0 0 0;
     padding: 40px;
 }
 
@@ -347,6 +346,53 @@ ul {
     height: 45%;
 }
 
-#vieux__port {
-    background: url();
+.activities__image__big {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 90%;
+} 
+
+.activities__image__small {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 80%;
 }
+
+.activities__title__big, .activities__title__small {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.activities__title__big {
+    height: 10%;
+
+}
+
+.activities__title__small {
+    height: 20%;
+}
+
+#vieux__port {
+    background: url('./assets/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+}
+
+#pomegues {
+    background: url('./assets/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+ }
+
+ #frioul {
+    background: url('./assets/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+ }
+
+ #calanques {
+     background: url('./assets/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+ }
+
+ #lagarde {
+    background: url('./assets/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+ }
+
+ #longchamp {
+    background: url('./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+ }
