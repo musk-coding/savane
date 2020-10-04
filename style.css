@@ -310,3 +310,43 @@ ul {
 .footer a:hover {
     text-decoration: underline;
 }
+
+ /* Activities */
+
+.activities {
+    height: 500px;
+}
+
+.activities__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.activities__item__box {
+    width: 23%;
+    height: 400px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activities__item__full, .activities__item__half {
+    border-radius: 20px;
+    /* border: 1px solid blue; */
+    box-shadow: 2px 2px 10px #cccccc;
+}
+
+.activities__item__full {
+    height: 100%;
+}
+
+.activities__item__half {
+    height: 45%;
+}
+
+#vieux__port {
+    background: url();
+}
