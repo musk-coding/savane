@@ -103,17 +103,10 @@ ul {
 }
 
 .search__filters {
-  width: 900px;
-  margin-top: 30px;
+  padding: 20px 0;
+  width: 70%;
   display: flex;
-  justify-content: flex-start;
-  width: 800px;
   flex-wrap: wrap;
-}
-
-.search__filters__options {
-  width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
