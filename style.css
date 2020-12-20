@@ -275,16 +275,22 @@ ul {
   margin-top: 50px;
 }
 
-.footer {
+/* Footer */
+
+footer {
   background-color: #f2f2f2;
-  padding: 40px;
+  padding: 30px;
 }
 
 .footer__items {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 75%;
+  width: 70%;
+}
+
+.footer_item {
+  margin: 10px 0;
 }
 
 .footer__links {
@@ -295,12 +301,12 @@ ul {
   margin-bottom: 10px;
 }
 
-.footer a {
+footer a {
   text-decoration: none;
   color: black;
 }
 
-.footer a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
@@ -390,4 +396,13 @@ ul {
 
 #longchamp {
   background: url("./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 }
