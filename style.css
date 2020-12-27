@@ -13,7 +13,7 @@ ul {
 }
 
 .container {
-  max-width: 70%;
+  width: 70%;
   margin: auto;
 }
 
@@ -402,7 +402,11 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
   footer {
-    background-color: #f2f2f2;
+    background-color: red;
     padding: 20px;
+  }
+
+  .container {
+    width: 100%;
   }
 }
