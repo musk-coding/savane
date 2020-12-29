@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -64,7 +66,6 @@ ul {
   font-weight: bold;
   border-color: #f2f2f2;
   height: 35px;
-  width: 300px;
   color: black;
   margin-right: 0px;
   outline: none;
@@ -107,12 +108,13 @@ ul {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .search__filters_label {
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .search__filters__option {
@@ -124,6 +126,7 @@ ul {
   text-align: center;
   border-radius: 20px;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .search__filters__option:hover {
@@ -145,7 +148,7 @@ ul {
 }
 
 .info {
-  margin-top: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -406,6 +409,18 @@ footer a:hover {
   }
 
   .container {
+    width: 90%;
+  }
+
+  .search__filters_label {
+    margin-right: 100%;
+  }
+
+  .search__filters__option {
+    margin-top: 10px;
+  }
+
+  .search__filters {
     width: 100%;
   }
 }
