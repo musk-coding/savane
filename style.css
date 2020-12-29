@@ -398,6 +398,10 @@ footer a:hover {
   background: url("./assets/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
 
+.fa-search {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
@@ -407,6 +411,14 @@ footer a:hover {
 
   .container {
     width: 95%;
+  }
+
+  .search__label {
+    display: none;
+  }
+
+  .fa-search {
+    display: block;
   }
 
   .search__filters_label {
