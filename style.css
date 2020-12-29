@@ -409,7 +409,7 @@ footer a:hover {
   }
 
   .container {
-    width: 100%;
+    width: 95%;
   }
 
   .search__filters_label {
@@ -418,9 +418,5 @@ footer a:hover {
 
   .search__filters__option {
     margin-top: 10px;
-  }
-
-  .search__filters {
-    width: 100%;
   }
 }
