@@ -131,6 +131,9 @@ ul {
 .search__filters__option:hover {
   background-color: #deebff;
   color: #0065fc;
+  -webkit-box-shadow: inset 0px 0px 0px 2px rgb(222, 235, 255);
+  -moz-box-shadow: inset 0px 0px 0px 2px rgb(222, 235, 255);
+  -box-shadow: inset 0px 0px 0px 2px rgb(222, 235, 255);
   cursor: pointer;
 }
 
