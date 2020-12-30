@@ -68,7 +68,8 @@ ul {
   margin-right: 0px;
   outline: none;
   border: none;
-  border: 1px solid #f2f2f2;
+  border: solid #f2f2f2;
+  border-width: 1px 0px 1px 1px;
 }
 
 .search__form {
@@ -95,6 +96,8 @@ ul {
 }
 
 .search__button {
+  position: relative;
+  left: -20px;
   height: 35px;
   margin: 0;
   background-color: #0065fc;
