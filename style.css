@@ -182,9 +182,10 @@ ul {
 }
 
 .results {
-  margin-top: 35px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin: 35px 0 20px 0;
 }
 
 .results__group {
@@ -192,6 +193,7 @@ ul {
   background-color: #f2f2f2;
   border-radius: 15px;
   padding: 25px;
+  margin-top: 20px;
 }
 
 .results__main {
@@ -448,5 +450,13 @@ footer a:hover {
 
   .search__filters__option {
     margin-top: 10px;
+  }
+
+  .results__group {
+    width: 100%;
+  }
+
+  .results__main {
+    background-color: transparent;
   }
 }
