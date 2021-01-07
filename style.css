@@ -189,7 +189,6 @@ ul {
 }
 
 .results__group {
-  height: 640px;
   background-color: #f2f2f2;
   border-radius: 15px;
   padding: 25px;
@@ -211,7 +210,6 @@ ul {
   align-items: center;
   margin-top: 80px;
   min-width: 100%;
-  height: 350px;
   margin: 0 auto;
 }
 
@@ -230,7 +228,7 @@ ul {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100%;
-  height: 60%;
+  height: 150px;
 }
 
 .results__item__description {
