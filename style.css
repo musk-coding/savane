@@ -457,9 +457,16 @@ footer a:hover {
 
   .results__group {
     width: 100%;
+    padding: 10px;
+    border-radius: 0%;
   }
 
   .results__main {
     background-color: transparent;
+  }
+
+  .results__item {
+    width: 100%;
+    margin: 5px 0 5px 0;
   }
 }
